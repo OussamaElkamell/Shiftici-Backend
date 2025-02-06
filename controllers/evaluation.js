@@ -1,6 +1,6 @@
 import Evaluation from "../models/evaluation.js";
 import Medecin from "../models/medecin.js";
-import Structure from "../models/Structure.js";
+import Structure from "../models/structure.js";
 import User from "../models/user.js";
 
 

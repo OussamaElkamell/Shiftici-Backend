@@ -1,4 +1,4 @@
-import Structure from "../models/Structure.js";
+import Structure from "../models/structure.js";
 import User from "../models/user.js";
 import Medecin from "../models/medecin.js"; // Import Medecin model
 
