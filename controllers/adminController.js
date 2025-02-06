@@ -1,4 +1,4 @@
-import Medecin from "../models/Medecin.js";
+import Medecin from "../models/medecin.js";
 import Mission from "../models/Mission.js";
 import Structure from "../models/Structure.js";
 

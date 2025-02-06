@@ -2,7 +2,7 @@ import path from "path";
 import fs from "fs";
 import Structure from "../models/Structure.js";
 import Mission from "../models/Mission.js";
-import Medecin from "../models/Medecin.js";
+import Medecin from "../models/medecin.js";
 import User from "../models/user.js";
 import Notification from "../models/Notification.js";
 

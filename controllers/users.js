@@ -1,5 +1,5 @@
 import Structure from "../models/Structure.js";
-import User from "../models/User.js";
+import User from "../models/user.js";
 import Medecin from "../models/medecin.js"; // Import Medecin model
 
 /* READ */
