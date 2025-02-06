@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import bcrypt from 'bcrypt';
 
-import User from "../models/user.js";
+import User from "../models/User.js";
 import Medecin from "../models/Medecin.js";
 import Structure from "../models/Structure.js";
 import Mission from "../models/Mission.js";
