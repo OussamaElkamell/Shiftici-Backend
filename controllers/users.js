@@ -1,6 +1,6 @@
 import Structure from "../models/Structure.js";
 import User from "../models/User.js";
-import Medecin from "../models/Medecin.js"; // Import Medecin model
+import Medecin from "../models/medecin.js"; // Import Medecin model
 
 /* READ */
 
