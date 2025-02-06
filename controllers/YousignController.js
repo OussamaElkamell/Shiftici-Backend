@@ -2,7 +2,7 @@ import { readFileSync } from 'fs';
 import fetch from 'node-fetch';
 import FormData from 'form-data';
 import { join } from 'path';
-import Mission from '../models/Mission.js';
+import Mission from '../models/mission.js';
 
 
 const apiBaseUrl = `https://api-sandbox.yousign.app/v3`;

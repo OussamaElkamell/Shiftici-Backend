@@ -1,5 +1,5 @@
 import Medecin from "../models/medecin.js";
-import Mission from "../models/Mission.js";
+import Mission from "../models/mission.js";
 import Structure from "../models/structure.js";
 
 export const getMedecinsAdmin = async (req, res) => {
