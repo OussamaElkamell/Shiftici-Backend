@@ -229,7 +229,7 @@ export const AssignMedecin = async (req, res) => {
         }
 
         // Find the Medecin by user reference
-        const medecin = await Medecin.findOne({ user: medecinId });
+        const medecin = await Medecin.findOne({ _id: medecinId });
         if (!medecin) {
             return res.status(404).json({ error: "Medecin not found." });
         }
