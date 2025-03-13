@@ -122,7 +122,7 @@ const updateEvaluateeRating = async (evaluateeId, role) => {
         if (role === "structure") {
             evaluatee = await Medecin.findOne({user:evaluateeId});
         } else {
-            evaluatee = await Structure.findOne({user:evaluateeId});
+            evaluatee = await Structure.findOne({_id:evaluateeId});
         }
 
 
